@@ -33,12 +33,14 @@
         android:background="@color/control_background"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/picture"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/picture" />
+            android:contentDescription="@string/description_capture"
+            android:src="@mipmap/ic_launcher_foreground" />
 
         <ImageButton
             android:id="@+id/info"
